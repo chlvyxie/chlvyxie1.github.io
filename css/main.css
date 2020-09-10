@@ -1,0 +1,387 @@
+/* CSS Document */
+
+body
+{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.container
+{
+	width: 100%;
+	height: 100%;
+	background-color: aquamarine;
+}
+
+.bottom-left {
+position: absolute;
+width: 404px;
+height: 102px;
+left: 40px;
+bottom: 65px;
+color: #1A1E21;
+
+font-family: "Montserrat Medium";
+font-style: normal;
+font-weight: 500;
+font-size: 79px;
+line-height: 96px;
+}
+.bottom-left1 {
+  position: absolute;
+width: 404px;
+height: 102px;
+left: 40px;
+bottom: 10px;
+
+font-family: "Montserrat Light";
+font-style: normal;
+font-weight: 500;
+font-size: 79px;
+line-height: 96px;
+color: #1A1E21;
+}
+.centeredimg {
+  position: absolute;
+  top: 1210px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered {
+  position: absolute;
+  top: 1370px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Montserrat Medium;
+  color: #E5E1DE;
+}
+.centered1 {
+  position: absolute;
+  top: 1405px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Montserrat Light;
+  color: #E5E1DE;
+}
+.centered2 {
+  position: absolute;
+  top: 1570px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Montserrat Light;
+  color: #E5E1DE;
+  text-align: center;
+}
+.centered3 {
+  position: absolute;
+  top: 2040px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Montserrat Medium";
+  color: #1A1E21;
+}
+.centered4 {
+  position: absolute;
+  top: 3000px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Montserrat Medium";
+  color: #E5E1DE;
+}
+.centered5 {
+  position: absolute;
+  top: 3070px;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  font-family: Montserrat Light;
+  color: #E5E1DE;
+}
+.centered6 {
+  position: absolute;
+  top: 3070px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Montserrat Light;
+  color: #E5E1DE;
+}
+.centered7 {
+  position: absolute;
+  top: 3070px;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  font-family: Montserrat Light;
+  color: #E5E1DE;
+}
+
+#mySidenav a {
+  position: fixed;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  font-family: Montserrat Light;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#home {
+  top: 20px;
+  background-color: #282D31;
+  font-family: Montserrat Light;
+}
+
+#blog {
+  top: 80px;
+  background-color: #282D31;
+  font-family: Montserrat Light;
+}
+
+#projects {
+  top: 140px;
+  background-color: #282D31;
+  font-family: Montserrat Light;
+}
+
+#contact {
+  top: 200px;
+  background-color: #282D31;
+  font-family: Montserrat Light;
+}
+#contact2 {
+  top: 260px;
+  background-color: #282D31;
+  font-family: Montserrat Light;
+}
+@font-face {
+  font-family: "Montserrat Light";
+  src: url("../Font/Montserrat-Light.ttf");
+}
+@font-face{
+     font-family: "Montserrat Medium";
+      src: url("../Font/Montserrat-Medium.ttf");
+}
+div {
+  font-family: "Montserrat Light";
+  font-family: "Montserrat Medium";
+}
+
+.Content
+{
+	width: 100%;
+	height: 100vh;
+	background-color: #7260A6;
+	display: flex;
+	justify-content: center;
+	font-size: 120px;
+	align-items: center;
+	
+}
+@import {
+    url(https://fonts.googleapis.com/css?family=Lato:700);
+}
+
+/*Contact Box*/
+.ContactBox{
+  position: absolute;
+  top: 4310px;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  font-family: Montserrat Light;
+  color: #E5E1DE;
+}
+
+.form-style-6{
+	font: 95% "Montserrat Medium";
+	max-width: 400px;
+	margin: 10px auto;
+	padding: 16px;
+	background: #F4F0ED;
+}
+.form-style-6 h1{
+	background: #1A1E21;
+	padding: 20px 0;
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+	margin: -16px -16px 16px -16px;
+}
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select 
+{
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 4%;
+	border: 1px solid #ccc;
+	padding: 3%;
+	color: #555;
+	font: 95% Arial, Helvetica, sans-serif;
+}
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus
+{
+	box-shadow: 0 0 5px #43D1AF;
+	padding: 3%;
+	border: 1px solid #43D1AF;
+}
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"]{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background: #1A1E21;
+	border-bottom: 2px solid #30C29E;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;	
+	color: #fff;
+}
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover{
+	background: #2EBC99;
+}
+/*Contact Box (End)*/
+
+/*Circle Progress Bar*/
+.CPB1{
+  position: absolute;
+  top: 2250px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.CPB2{
+  position: absolute;
+  top: 2250px;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+.CPB3{
+  position: absolute;
+  top: 2250px;
+  right: 12%;
+  transform: translate(-50%, -50%);
+}
+.CPB4{
+  position: absolute;
+  top: 2550px;
+  left: 37%;
+  transform: translate(-50%, -50%);
+}
+.CPB5{
+  position: absolute;
+  top: 2550px;
+  right: 22%;
+  transform: translate(-50%, -50%);
+}
+/*Circle Progress Bar (End)*/
+
+/*Gallery*/
+.gallery{
+  position: absolute;
+  top: 3500px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.15 ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+

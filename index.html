@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container">
+		<div id="mySidenav" class="sidenav">
+  			<a href="#mot" id="home">Home</a>
+  			
+  				<div class="bottom-left" style="font-size: 79px; line-height: 95px;">Welcome</div>
+  				<div class="bottom-left1" style="font-size: 53px; line-height: 96px;">To my Portfolio</div>
+  				
+  			<a href="#hai" id="blog">About</a>
+  			    <div class="centeredimg">
+  				<img src="images/Ellipse 4.png">
+  				</div>
+                
+  				<div class="centered" style="font-size: 35px; line-height: 43px; ">
+  				Đào Hồng Lê
+  				</div>
+  				<div class="centered1" style="font-size: 25px; line-height: 43px; ">
+  				Ilustrator - Graphic Designer
+  				</div>
+  				<div class="centered2" style="font-size: 20px; line-height: 30px; ">
+  				Hi there, I’m ChloeV. <br> I am a student illustrator artist and graphic designer! I’m interested at 80’s Korean Retro-style illustrations, cute things like small animal and plushies, fluffy cats, playing old RPG games. <br>
+My goal was had a illustration career that gives me the right oppotunity to work with many peoples on creative projects and buy more games. <br>
+(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
+  				</div>
+  			<a href="#ba" id="projects">Skills</a>
+				<div class="centered3" style="font-size: 40px; line-height: 49px; ">My Skills</div>
+					<div class="CPB1">
+  						<img src="images/Component 2.png">
+  					</div>
+					<div class="CPB2">
+  						<img src="images/Component 3.png">
+  					</div>
+					<div class="CPB3">
+  						<img src="images/Component 4.png">
+  					</div>
+					<div class="CPB4">
+  						<img src="images/Component 5.png">
+  					</div>
+					<div class="CPB5">
+  						<img src="images/Component 6.png">
+  					</div>
+  			<a href="#bon" id="contact">Project</a>
+  				<div class="centered4" style="font-size: 40px; line-height: 49px; ">Projects I worked for</div>
+  				<div class="centered5" style="font-size: 25px; line-height: 49px; ">Illustrations</div>
+  				<div class="centered6" style="font-size: 25px; line-height: 49px; ">Fanart</div>
+  				<div class="centered7" style="font-size: 25px; line-height: 49px; ">Commissions</div>
+			
+			
+                    <!--Gallery-->
+                <div class="gallery">
+					<div class="slideshow-container">
+						<div class="mySlides fade">
+						  <div class="numbertext"></div>
+						  <img src="images/m.png" style="width:100%">
+						  <div class="text">Caption Text</div>
+						</div>
+
+						<div class="mySlides fade">
+						  <div class="numbertext"></div>
+						  <img src="images/n.png" style="width:100%">
+						  <div class="text">Caption Two</div>
+						</div>
+
+						<div class="mySlides fade">
+						  <div class="numbertext"></div>
+						  <img src="images/v.png" style="width:100%">
+						  <div class="text">Caption Three</div>
+						</div>
+						</div>
+						<br>
+
+						<div style="text-align:center">
+						  <span class="dot" onclick="currentSlide(1)"></span> 
+						  <span class="dot" onclick="currentSlide(2)"></span> 
+						  <span class="dot" onclick="currentSlide(3)"></span> 
+						</div>
+				</div>
+                  
+            
+                    <!---->
+  			<a href="#nam" id="contact2">Contact</a>
+                <div class="ContactBox" style="font-size: 40px; line-height: 49px; ">
+                    <div class="form-style-6" style="font-size: 25px; line-height: 49px; " >
+                        <h1>Contact Us</h1>
+                            <form>
+                                <input type="text" name="field1" placeholder="Your Name" style="font-family: 'Montserrat Light'; font-size: 15px" />
+                                    <input type="email" name="field2" placeholder="Email Address" style="font-family: 'Montserrat Light'; font-size: 15px" />
+                                    <textarea name="field3" placeholder="Type your Message" style="font-family: 'Montserrat Light'; font-size: 15px"></textarea>
+                                <input type="submit" value="Send" style="font-family: 'Montserrat Light'; font-size: 15px"/>
+                            </form>
+                    </div>
+                </div>
+	</div>
+	
+<!--Content-->
+	<div class="Content" id="mot">
+		<img src="images/ayy.2clip.png" style='width: 100%; height: 100%'>
+	</div>
+	<div class="Content" style="background-color: #282D31" id="hai">
+		<img src="images/2.png" style='width: 100%; height: 100%'>
+	</div>
+	<div class="Content" style="background-color: #E5E1DE" id="ba">
+		<img src="images/1.png" style='width: 100%; height: 100%'>
+	</div>
+	<div class="Content" style="background-color: #282D31" id="bon">
+		<img src="images/2.png" style='width: 100%; height: 100%'>
+	</div>
+	<div class="Content" style="background-color: #E5E1DE" id="nam">
+		<img src="images/contact.png" style='width: 100%; height: 100%'>
+	</div>
+</body>
+	<!--cho em qua mon-->
+	<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</html>
